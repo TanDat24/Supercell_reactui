@@ -1,0 +1,71 @@
+@import "normalize.css";
+:root {
+  --primary: #000;
+}
+
+@import "//cdn.supercell.com/onetrust/supercell/onetrust_override.css";
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: SupercellText-Regular, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  --supercell-color-grey: grey;
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+html h1,
+html h2,
+html h3,
+html h4 {
+  font-weight: 400;
+}
+
+body h1,
+body h2,
+html h1,
+html h2 {
+  font-family: SupercellHeadline-Heavy, sans-serif;
+}
+
+body h2,
+html h2 {
+  font-size: 34px;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+body h3,
+html h3 {
+  font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;
+}
+
+body p,
+html p {
+  font-size: 18px;
+  margin: 0 0 30px;
+  line-height: 1.56;
+}
+
+body img,
+html img {
+  width: auto;
+  height: auto;
+}
+
+body blockquote,
+html blockquote {
+  font-size: 27px;
+  padding: 0 30px 65px;
+  margin: 0;
+  text-align: center;
+}
