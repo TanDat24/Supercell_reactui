@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1281px) {
+  .wrapper {
+    width: 1200px;
+    height: 78px;
+  }
+}
+
+.wrapper {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  z-index: 1000;
+  width: 100%;
+}
+.inner {
+  width: 1200px;
+  height: 78px;
+  background-color: var(--primary);
+}
