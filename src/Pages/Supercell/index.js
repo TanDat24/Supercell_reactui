@@ -1,5 +1,3 @@
-function Supercell() {
-  return <h1>Supercell</h1>;
-}
+function Supercell() {}
 
 export default Supercell;

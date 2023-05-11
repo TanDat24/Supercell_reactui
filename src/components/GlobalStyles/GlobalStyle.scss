@@ -1,6 +1,10 @@
 @import "normalize.css";
 :root {
   --primary: #000;
+  --default-layout-header-height: 78px;
+  --default-layout-header-width: 1200px;
+  --while-color-text: #fff;
+  --supercell-color-grey: grey;
 }
 
 @import "//cdn.supercell.com/onetrust/supercell/onetrust_override.css";
