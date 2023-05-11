@@ -97,3 +97,35 @@
   color: var(--while-color-text);
   cursor: pointer;
 }
+.icon-and-serach {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.search-from {
+}
+.icon-list {
+  margin-left: auto;
+  margin-bottom: 0;
+  border-right: 1px solid #444;
+  height: 100%;
+  padding-right: 2em;
+  opacity: 1;
+  transition: opacity 0.3s;
+  align-items: center;
+}
+.search-icon {
+  height: 16px;
+  width: 16px;
+}
+.menu-icon {
+  margin-inline: 22px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}

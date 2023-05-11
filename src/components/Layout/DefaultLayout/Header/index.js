@@ -1,6 +1,10 @@
 import classNames from "classnames/bind";
 import styles from "./Header.module.scss";
 import companyImg from "~/img/supercell_logo1.webp";
+import icon_c from "~/img/supercell_creators_grey.f699541d.svg";
+import icon_m from "~/img/supercell_make_grey.964b2d8d.svg";
+import icon_id from "~/img/supercell_id_grey.62affa0b.svg";
+import icon_search from "~/img/search_icon.534f25e1.webp";
 const cx = classNames.bind(styles);
 
 function Header() {
@@ -63,7 +67,17 @@ function Header() {
               </div>
             </div>
           </div>
-          <div className={cx("menuIcon-and-serach")}></div>
+          <div className={cx("icon-and-serach")}>
+            <from className={cx("search-from")}></from>
+            <div className={cx("icon-list")}>
+              <img className={cx("menu-icon")} src={icon_c} alt="#"></img>
+              <img className={cx("menu-icon")} src={icon_m} alt="#"></img>
+              <img className={cx("menu-icon")} src={icon_id} alt="#"></img>
+            </div>
+            <div className={cx("search-icon")}>
+              <img className={cx("menu-icon")} src={icon_search} alt="#"></img>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
